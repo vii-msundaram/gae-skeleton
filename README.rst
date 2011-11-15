@@ -20,21 +20,24 @@ Quick usage reference
    Dont forget to replace *<project name>* with the appropriate project's
    title.
 
-2. Change the current dir to the one you've cloned this repo.
+#. Change the current dir to the one you've cloned this repo.
 
-3. Place your project's source file under the ``app`` directory. Create it 
+#. Adjust ``eggs =`` section with the packages you suppose to use with
+   your project.
+
+#. Place your project's source file under the ``app`` directory. Create it 
    manually or just clone your existing repo somehow like this:
    ``git clone <your repository URL> app``
    Then run ``mkdir -p app/lib/dist``.
 
-4. Ensure that you have zc.buildout_ installed system-wide or in your
+#. Ensure that you have zc.buildout_ installed system-wide or in your
    virtual environment in case you are using sort of it.
 
-5. Run buildout tool under the directory you've clone gae-skeleton in.
+#. Run buildout tool under the directory you've clone gae-skeleton in.
 
-6. ...
+#. ...
 
-7. **PROFIT!!!**
+#. **PROFIT!!!**
 
 :Authors:
         Yegor Nazarkin
