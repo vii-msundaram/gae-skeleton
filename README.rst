@@ -27,8 +27,12 @@ Quick usage reference
 
 #. Place your project's source file under the ``app`` directory. Create it 
    manually or just clone your existing repo somehow like this:
+
    ``git clone <your repository URL> app``
-   Then run ``mkdir -p app/lib/dist``.
+
+   Then run:
+
+   ``mkdir -p app/lib/dist``.
 
 #. Ensure that you have zc.buildout_ installed system-wide or in your
    virtual environment in case you are using sort of it.
